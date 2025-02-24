@@ -4,9 +4,9 @@
     <key>package_description</key>
     <map>
       <key>canonical_repo</key>
-      <string>https://github.com/secondlife/3p-sse2neon</string>
+      <string>https://github.com/AlchemyViewer/3p-sse2neon</string>
       <key>copyright</key>
-      <string>Copyright (c) 2015-2024 SSE2NEON Contributors.</string>
+      <string>Copyright (c) 2015-2025 SSE2NEON Contributors.</string>
       <key>description</key>
       <string>A translator from Intel SSE intrinsics to Arm/Aarch64 NEON implementation</string>
       <key>license</key>

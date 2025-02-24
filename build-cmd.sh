@@ -30,12 +30,10 @@ source_environment_tempfile="$stage/source_environment.sh"
 . "$source_environment_tempfile"
 
 # apply_patch
-source "$(dirname "$AUTOBUILD_VARIABLES_FILE")/functions"
+# source "$(dirname "$AUTOBUILD_VARIABLES_FILE")/functions"
 
 # load autobuild provided shell functions and variables
 SSE2NEON_SOURCE_DIR="sse2neon"
-
-apply_patch "patches/fix-clang-build.patch" $SSE2NEON_SOURCE_DIR
 
 mkdir -p "$stage/include/sse2neon"
 cp -a $SSE2NEON_SOURCE_DIR/*.h "$stage/include/sse2neon"
